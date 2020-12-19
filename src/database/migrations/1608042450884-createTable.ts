@@ -27,12 +27,12 @@ export default class createTable1608042450884 implements MigrationInterface {
           {
             name: "CreateAt",
             type: "TEXT NULL",
-            default: "CURRENT_TIMESTAMP",
+            default: "datetime('now')",
           },
           {
             name: "UpdatedAt",
             type: "TEXT NULL",
-            default: "CURRENT_TIMESTAMP",
+            default: "datetime('now')",
           },
         ],
       })
